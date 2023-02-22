@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mnist</title>
+    <style>
+      canvas {
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+  </head>
+
+  <body>
+    <canvas id="canvas"></canvas>
+    <button id="clear">Clear</button>
+    <button id="export">Predict</button>
+    <output id="output"></output>
+    <canvas id="image"></canvas>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
